@@ -1,0 +1,31 @@
+Nav{
+    position: fixed;
+    background-color: #22a7d0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0.9;    
+}
+
+nav img {
+height: 40px;
+width: auto;
+align-self: center;
+padding-left: 20px;
+
+}
+
+Nav ul{
+
+    padding-left: 800px;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    color: #f7faff;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    
+
+}
