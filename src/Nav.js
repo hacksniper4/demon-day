@@ -9,9 +9,12 @@ class Nav extends Component {
     <nav>
 <img src={logo}/> 
       <ul>
-         <li>Contato</li>
-         <li>Sobre nós</li>
-         <li>Cadastro</li>
+         <li><a href="#">Sobre Nós</a></li>
+         <li><a href="#">Como Funciona</a></li>
+         <li><a href="#">Cadastre-se</a></li>
+         <li><a href="#">Contato</a></li>
+         
+         
 
       </ul>
     </nav>

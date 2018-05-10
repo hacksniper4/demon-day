@@ -4,6 +4,7 @@ import './App.css';
 import Cabecalho from './Cabecalho';
 import Sessao from './Sessao';
 import Nav from './Nav'; 
+import Carrossel from './Carrossel';
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
       <div className="App">
         <Nav/>
         <Cabecalho/>
-        <Sessao/>
+        <Carrossel/>
         <Sessao/>
         <Sessao/>
         <Sessao/>
