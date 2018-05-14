@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Cabecalho from './Cabecalho';
-import Sessao from './Sessao';
+import Sobre from './Sobre';
 import Nav from './Nav'; 
 import Carrossel from './Carrossel';
+import Login from './Login';
 
 class App extends Component {
   render() {
@@ -13,10 +14,9 @@ class App extends Component {
         <Nav/>
         <Cabecalho/>
         <Carrossel/>
-        <Sessao/>
-        <Sessao/>
-        <Sessao/>
-
+        <Sobre/>
+        <Login/>
+      
         </div>
     );
   }
